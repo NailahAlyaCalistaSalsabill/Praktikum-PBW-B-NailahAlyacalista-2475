@@ -96,7 +96,8 @@ Seluruh file PHP pada folder **p1** dan **p2** telah diperiksa validasi sintaksn
 
 #### B. Sesudah Modifikasi
 * **`Biodata.modifikasi.php` & `Kalkulator.modifikasi.php`:**  
-  *<img width="960" height="540" alt="Screenshot 2026-09-27 224704" src="https://github.com/user-attachments/assets/749b4ee7-85ff-4c0b-9749-532c5ae27c68" /> <img width="960" height="540" alt="Screenshot 2026-09-27 224149" src="https://github.com/user-attachments/assets/2baf8ecd-50d5-4381-8c5b-80e77529845d" /> *
+  *<img width="960" height="540" alt="Screenshot 2026-09-27 224704" src="https://github.com/user-attachments/assets/749b4ee7-85ff-4c0b-9749-532c5ae27c68" /> <img width="960" height="540" alt="Screenshot 2026-09-27 224505" src="https://github.com/user-attachments/assets/303d06a4-7df9-4190-99bf-96e2ba78ebba" />
+ /> *
 
 ---
 
