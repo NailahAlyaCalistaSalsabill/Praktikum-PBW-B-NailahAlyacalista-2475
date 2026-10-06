@@ -122,40 +122,40 @@ ADD CONSTRAINT `chk_sks` CHECK (`sks` BETWEEN 1 AND 6);
 
 ### Pembuatan Database & DDL Latihan Awal:
 * **Langkah 1:** Pembuatan Database `akademik`
-  ![SS1 - Membuat Database akademik](ss1.png)
+  ![SS1 - Membuat Database akademik](foto/ss1.png)
 * **Langkah 2:** Query DDL Pembuatan Tabel `mahasiswa` & `prodi`
-  ![SS2 - Query Create Table awal](ss2.png)
+  ![SS2 - Query Create Table awal](foto/ss2.png)
 * **Langkah 3:** Output Hasil Eksekusi Pembuatan Tabel awal
-  ![SS3 - Output Create Table awal](ss3.png)
+  ![SS3 - Output Create Table awal](foto/ss3.png)
 * **Langkah 4 & 5:** Query & Output Insert Data `prodi`
-  ![SS4 - Query Insert prodi](ss4.png)
-  ![SS5 - Output Insert prodi](ss5.png)
+  ![SS4 - Query Insert prodi](foto/ss4.png)
+  ![SS5 - Output Insert prodi](foto/ss5.png)
 * **Langkah 6 & 7:** Query & Output `ALTER TABLE` Foreign Key
-  ![SS6 - Query Alter Table FK](ss6.png)
-  ![SS7 - Output Alter Table FK](ss7.png)
+  ![SS6 - Query Alter Table FK](foto/ss6.png)
+  ![SS7 - Output Alter Table FK](foto/ss7.png)
 
 ### Pembuatan Database & DDL `akademik1` (Materi Modul Utama):
 * **Langkah 12:** Pembuatan Database `akademik1`
-  ![SS12 - Membuat Database akademik1](ss12.png)
+  ![SS12 - Membuat Database akademik1](foto/ss12.png)
 * **Langkah 13 & 14:** Query DDL & Executed Result Pembuatan Tabel `mahasiswa` (`akademik1`)
-  ![SS13 - Query DDL Mahasiswa akademik1](/ss13.png)
-  ![SS14 - Output Sukses DDL Mahasiswa](ss14.png)
+  ![SS13 - Query DDL Mahasiswa akademik1](foto/ss13.png)
+  ![SS14 - Output Sukses DDL Mahasiswa](foto/ss14.png)
 * **Langkah 15 & 16:** Query DDL & Executed Result Pembuatan Tabel `dosen` & `mata_kuliah`
-  ![SS15 - Query DDL Dosen & MK](ss15.png)
-  ![SS16 - Output Sukses DDL Dosen & MK](ss16.png)
+  ![SS15 - Query DDL Dosen & MK](foto/ss15.png)
+  ![SS16 - Output Sukses DDL Dosen & MK](foto/ss16.png)
 
 ### Screenshot Modifikasi Pertemuan 3:
 * **Modifikasi 1 (Tambah Kolom `no_hp` & Constraint `chk_no_hp`):**
   * **Query Modifikasi 1:**
-    ![SS21 - Query Modifikasi 1 no_hp](ss21.png)
+    ![SS21 - Query Modifikasi 1 no_hp](foto/ss21.png)
   * **Output Modifikasi 1 (Tabel Mahasiswa dengan kolom `no_hp`):**
-    ![SS22 - Output Modifikasi 1 no_hp](ss22.png)
+    ![SS22 - Output Modifikasi 1 no_hp](foto/ss22.png)
 
 * **Modifikasi 2 (Tambah `status_aktif` & Constraint `chk_sks`):**
   * **Query Modifikasi 2:**
-    ![SS23 - Query Modifikasi 2 status_aktif dan chk_sks](ss23.png)
+    ![SS23 - Query Modifikasi 2 status_aktif dan chk_sks](foto/ss23.png)
   * **Output Sukses Modifikasi 2:**
-    ![SS24 - Output Sukses Modifikasi 2](ss24.png)
+    ![SS24 - Output Sukses Modifikasi 2](foto/ss24.png)
 
 ---
 
@@ -165,17 +165,14 @@ ADD CONSTRAINT `chk_sks` CHECK (`sks` BETWEEN 1 AND 6);
   `#4025 - CONSTRAINT 'mahasiswa.ipk' failed for 'akademik'.'mahasiswa'`
 * **Bukti Screenshot Error:**
   * **Query Penyebab Error:**
-    ![SS8 - Query Input IPK 4.50](ss8.png)
+    ![SS8 - Query Input IPK 4.50](foto/ss8.png)
   * **Tampilan Pesan Error phpMyAdmin:**
-    ![SS9 - Pesan Error Constraint IPK Failed](ss9.png)
+    ![SS9 - Pesan Error Constraint IPK Failed](foto/ss9.png)
 * **Penyebab:**
   Gagal saat mencoba memasukkan data mahasiswa dengan nilai IPK `4.50`. Nilai tersebut melanggar aturan constraint `CHECK (ipk BETWEEN 0.00 AND 4.00)`.
 * **Langkah Perbaikan:**
   Mengubah nilai IPK pada query `INSERT` menjadi angka valid dalam rentang `0.00 - 4.00` (misalnya IPK `3.99`).
   * **Query Perbaikan (Sukses Insert - SS11):**
-    ![SS11 - Sukses Insert Data Mahasiswa IPK 3.99](ss11.png)
+    ![SS11 - Sukses Insert Data Mahasiswa IPK 3.99](foto/ss11.png)
 
 ---
----
-
-
