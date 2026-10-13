@@ -23,27 +23,27 @@ Berikut adalah perbandingan komparatif dari program sebelum dan sesudah dilakuka
 ### A. SEBELUM DIMODIFIKASI (KODE AWAL)
 
 #### 1. Uji Koneksi Database via Terminal
-![Uji Koneksi](ss1.png)  
+![Uji Koneksi](foto/ss1.png)  
 *(Gambar 1.1: Pengujian koneksi database melalui command line terminal)*
 
 #### 2. Setup Database & Tabel Otomatis
-![Setup Database](ss2.png)  
+![Setup Database](foto/ss2.png)  
 *(Gambar 1.2: Proses pembuatan database dan tabel menggunakan skrip setup.php)*
 
 #### 3. Tampilan Form Input Awal di Browser
-![Form Awal](ss3.png)  
+![Form Awal](foto/ss3.png)  
 *(Gambar 1.3: Tampilan form input HTML polos pada browser)*
 
 #### 4. Pengisian Data pada Form Input
-![Isi Form](ss4.png)  
+![Isi Form](foto/ss4.png)  
 *(Gambar 1.4: Contoh pengisian data input mahasiswa)*
 
 #### 5. Output Pesan Berhasil Disimpan
-![Simpan Berhasil](ss5.png)  
+![Simpan Berhasil](foto/ss5.png)  
 *(Gambar 1.5: Notifikasi teks berhasil disimpan setelah submit form)*
 
 #### 6. Pengecekan Data pada phpMyAdmin
-![phpMyAdmin](ss6.png)  
+![phpMyAdmin](foto/ss6.png)  
 *(Gambar 1.6: Bukti data masuk ke dalam tabel database MySQL)*
 
 ---
@@ -51,15 +51,15 @@ Berikut adalah perbandingan komparatif dari program sebelum dan sesudah dilakuka
 ### B. SESUDAH DIMODIFIKASI (KODE BARU)
 
 #### 7. Kode Program Modifikasi: Koneksi & Setup Tabel Buku
-![Kode Setup](ss7.png)  
+![Kode Setup](foto/ss7.png)  
 *(Gambar 2.1: Implementasi struktur tabel buku baru pada skrip modifikasi)*
 
 #### 8. Kode Program Modifikasi: Validasi & Prepared Statement
-![Kode Prepared Statement](ss8.png)  
+![Kode Prepared Statement](foto/ss8.png)  
 *(Gambar 2.2: Implementasi keamanan Prepared Statement dan validasi stok tidak boleh negatif)*
 
 #### 9. Kode Program Modifikasi: Integrasi Tailwind CSS UI
-![Kode Tailwind](ss9.png)  
+![Kode Tailwind](foto/ss9.png)  
 *(Gambar 2.3: Perancangan antarmuka menggunakan kerangka Tailwind CSS)*
 
 ---
